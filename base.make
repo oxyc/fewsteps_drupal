@@ -134,8 +134,22 @@ projects[stylus][subdir] = "custom"
 
 ; Features {
 projects[feature_bean][download][type] = "file"
-projects[feature_bean][download][url] = "git@github.com:oxyc/base.git"
-projects[feature_bean][type] = "theme"
+projects[feature_bean][download][url] = "https://github.com/oxyc/fewsteps_drupal/raw/master/features/feature_bean-7.x-1.0.tar"
+projects[feature_bean][subdir] = "features"
+
+projects[feature_content][download][type] = "file"
+projects[feature_content][download][url] = "https://github.com/oxyc/fewsteps_drupal/raw/master/features/feature_content-7.x-1.0.tar"
+projects[feature_content][subdir] = "features"
+
+
+projects[feature_core][download][type] = "file"
+projects[feature_core][download][url] = "https://github.com/oxyc/fewsteps_drupal/raw/master/features/feature_core-7.x-1.0.tar"
+projects[feature_core][subdir] = "features"
+
+
+projects[feature_development][download][type] = "file"
+projects[feature_development][download][url] = "https://github.com/oxyc/fewsteps_drupal/raw/master/features/feature_development-7.x-1.0.tar"
+projects[feature_development][subdir] = "features"
 
 ; }
 
